@@ -1,10 +1,11 @@
 ---
 title: "TAR - RBMM"
 author: "Gerson A. García"
-affiliation: UMSNH - ININEE
+affiliation: "UMSNH - ININEE"
+
 output:
-  html_document:
-    df_print: paged
+  #html_document:
+    #df_print: paged
   pdf_document:
     latex_engine: pdflatex
 keywords: APA style, demonstration
