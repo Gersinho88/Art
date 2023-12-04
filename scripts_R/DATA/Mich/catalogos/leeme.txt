@@ -1,0 +1,69 @@
+PRESENTACIÓN
+
+El Instituto Nacional de Estadística y Geografía (INEGI), responsable de brindar el Servicio Público de Información Estadística y Geográfica, presenta el producto “Cartografía Geoestadística Urbana y Rural Amanzanada. Junio 2016” En formato digital, conformado por un total de 55,383 Localidades Urbanas y Rurales amanzanadas, mencionando que 4,562 corresponden a  Localidades Urbanas, y 50,821 a localidades Rurales.
+ 
+Se considera Localidad Urbana a todas las Cabeceras Municipales y las que cuentan con una población de 2,500 o más habitantes.  Localidad Rural Amanzanada a todas las localidades con un rango de 100 a 2,499 habitantes, que no sean cabeceras municipales, cabe aclarar que existen casos especiales de localidades rurales con más de 2,500 habitantes según los resultados del último Conteo o Censo de Población y Vivienda.  que por las características de sus caseríos dispersos no pueden ser amanzanadas; también existen localidades con menos de 2,500 habitantes que en algún momento cumplieron con este criterio, motivo por el cual quedaron catalogadas como localidades urbanas y se han mantenido como tal; contrariamente se presentan los casos en que localidades urbanas se han subdividido en una o más localidades (urbanas o rurales), esto a petición específica de las autoridades estatales ó municipales. Al interior de algunas localidades existen Desarrollos Urbanos que son básicamente Asentamientos Humanos que forman parte de la localidad urbana, sin embargo no presentan una continuidad urbanística y se representan en polígonos independientes al polígono de la localidad a la que pertenecen, pero están integrados en el mismo archivo y comparten el mismo nombre y clave geoestadística de la localidad.
+	
+El producto  “Cartografía Geoestadística Urbana y Rural Amanzanada. Junio 2016” es la representación vectorial de las Localidades Urbanas y Rurales Amanzanadas cuya  Actualización corresponde al 31 de Mayo del 2016, con sus respectivas Claves y Nombres que permiten integrar un catálogo homologado con la finalidad de que las autoridades Federales, Estatales y Municipales, la Academia y nuestra sociedad, conjuntamente con el INEGI utilicen una información homogénea.
+
+Toda la información está referida en base a los parámetros   Cónica Conforme de Lambert (CCL)
+Dátum: ITRF2008. Cabe aclarar que la ubicación, forma y proporción de los elementos llevados a su expresión cartográfica es aproximada, debido a las fuentes y métodos de compilación.
+
+Los archivos vectoriales se encuentran disponibles tanto en estándares de intercambio vectorial como en formatos de software comercial con el fin de que puedan ser incorporados en diversos software, ya sea en los orientados a sistemas de información geográfica (SIG), a los de diseño asistido por computadora (ArcGIS), o bien a aplicaciones desarrolladas por el mismo usuario; se presenta la información en:
+
+*   Formato  SHP
+
+Nota: Los formatos fueron generados y probados en el software ArcGis ver. 10.4.
+
+Para el mejor aprovechamiento de los datos, es importante que el software del usuario sea adecuado a sus necesidades, así como las especificaciones del equipo de cómputo que deben cumplir con los requerimientos de dicho software.
+
+Por sus características, el producto “Cartografía Geoestadística Urbana y Rural Amanzanada. Junio 2016” puede ser utilizado por los Sectores Público, Privado y Académico, entre otros.
+
+ATRIBUTOS DE LA INFORMACIÓN
+Entre otros atributos se presentan las claves geoestadísticas asociadas a los polígonos de Localidad, AGEB y manzanas; en el caso de los elementos que complementan las  localidades urbanas y Rurales Amanzanadas, también tienen información asociada detallada en la documentación que acompaña el producto. 
+
+De tal manera que se puede conocer su ubicación por Entidad Federativa, Municipio, Localidad Urbana o Rural, Área Geoestadística Básica (AGEB), y las Manzanas que las conforman.
+Cabe señalar que  la “Cartografía Geoestadística Urbana y Rural Amanzanada. Junio 2016” toma como base el archivo cartográfico digital más actualizado. Además  se complementa con los siguientes  archivos: el de presentación Léeme, el de Síntesis que muestra la descripción de la obra, y el de Contenido que detalla las características técnicas de la información, todos los archivos mencionados se encuentran en formato pdf y txt. Los catálogos de Entidades, Municipios y de Localidades Urbanas y Rurales Amanzanadas, en formato pdf y csv.
+ESTRUCTURA DEL DISCO
+
+Los archivos se encuentran organizados por entidad federativa y por capa, con base en la siguiente organización:
+
+
+EE\Capa
+
+Donde:
+EE corresponde a la clave numérica de la Entidad Federativa: 01, 02,…, 32 (ver Entidades.pdf), 
+Capa contiene los sufijos  A, E, FM, L, M, SIA, SIP, SIL que indican el tipo de elementos contenidos en cada archivo:
+
+EEL           Polígono de Localidad Urbana y Rural Amanzanada
+EEA	Área Geoestadística Básica
+EEM	Polígonos de Manzanas
+EEFM 	Frentes de Manzana
+EEE	Ejes de vialidad
+EESIA	Servicios con Información complementaria de tipo Área (Áreas Verdes, Camellones, glorietas)
+EESIL	Servicios con Información complementaria de tipo Línea (Ríos, Ferrocarriles)
+EESIP	Servicios con Información complementaria de tipo Puntual (Palacios Municipales o Ayudantías, 
+	Parques o Jardines)
+
+Cabe aclarar que los archivos con sufijo L, A, M, E, y FM están presentes en cada localidad urbana, el resto de los archivos se incluyen únicamente si la localidad cuenta con este tipo de información.
+
+
+
+
+
+Porque proporcionamos información para todos...
+¡México cuenta con el INEGI!
+
+Queda prohibida la reproducción total o parcial de este producto con fines  de lucro, por cualquier medio,  ya sea impreso o electrónico.
+Consecuentemente, la persona física o moral que sin autorización fotocopie, grabe, almacene en algún sistema o transmita a medios electrónicos o magnéticos dicha información, quedará sujeta a las disposiciones legales.
+
+DR (C) 2013,	Instituto Nacional de Estadística y Geografía
+Edificio Sede
+Av. Héroe de Nacozari Sur No. 2301
+Fracc. Jardines del Parque, CP 20276
+Aguascalientes, Aguascalientes, México.
+
+www.inegi.org.mx
+Atencion.usuarios@inegi.org.mx
+
+Cartografía Geoestadística Urbana y Rural Amanzanada. Junio 2016.

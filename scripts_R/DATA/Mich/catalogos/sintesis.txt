@@ -1,0 +1,33 @@
+
+SÍNTESIS
+(DESCRIPCIÓN DE OBRA)
+
+Cartografía Geoestadística Urbana y Rural Amanzanada.
+Junio 2016.
+
+
+El producto denominado “Cartografía Geoestadística Urbana y Rural Amanzanada.
+Junio 2016”. es la representación vectorial de las Localidades Urbanas y Rurales Amanzanadas cuya  Actualización corresponde al 31 de Mayo del 2016.
+
+Se conforma por 55,383  Localidades Urbanas y Rurales Amanzanadas.
+ 
+La información está referida en base a los parámetros:
+Cónica Conforme de Lambert (CCL)
+Dátum: ITRF2008.
+Elipsoide: GRS80.
+Meridiano origen: 102° 00’ 00’’ W.
+Latitud origen: 12° 00’ 00’’ N.
+Primer paralelo estándar: 17° 30’ N.
+Segundo paralelo estándar: 29° 30’ N.
+Falso Este: 2 500 000.
+Falso Norte: 0
+
+
+Cabe aclarar que la ubicación, forma y  proporción de los elementos cartográficos muchas de las veces es aproximada, debido a las fuentes y métodos de compilación. 
+
+El producto se complementa con el presente documento Síntesis que especifica la descripción de la obra, un archivo de presentación denominado Leeme, y el archivo Contenido que detalla las características técnicas de la información, estos archivos se encuentran  en formato pdf y txt. Así como el catálogo de Localidades Urbanas y Rurales Amanzanadas, Catálogo de Entidades Federativas, y Catálogo de Municipios que se encuentran en formato pdf y csv.
+
+
+
+
+

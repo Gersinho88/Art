@@ -1,0 +1,56 @@
+---
+title: "TAR - RBMM"
+author: "Gerson A. García"
+affiliation: UMSNH - ININEE
+output:
+  html_document:
+    df_print: paged
+  pdf_document:
+    latex_engine: pdflatex
+keywords: APA style, demonstration
+documentclass: apa7
+classoption: jou
+addbibresource: refs.bib
+bibliography: refs.bib
+leftheader: leftheader
+header-includes:
+- \usepackage[spanish]{babel}
+- \usepackage{csquotes}
+- \usepackage[style=apa, backend=biber]{biblatex}
+
+## subsection {#subsection}
+
+---
+
+# Resumen {#section}
+
+```{r, child='I_Resumen.Rmd'}
+
+```
+
+# Introducción {#section}
+  
+```{r, child='II_intro.Rmd'}
+
+```
+
+
+# Sustento teórico del análisis regional {#section}
+
+```{r, child='III_MT.Rmd'}
+
+```
+
+# Método
+
+```{r, child='IV_Metodología.Rmd'}
+
+```
+
+# Resultados
+
+```{r, child='V_Resultados.Rmd'}
+
+```
+
+### Referencias

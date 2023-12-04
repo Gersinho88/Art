@@ -1,0 +1,87 @@
+---
+title: "TAREA"
+author: "GAGG"
+date: "2023-11-22"
+output: html_document
+---
+# A. Ordenamiento de datos
+
+Para todas las técnicas incorporadas en TAREA v3.0, la información se encuentra organizada en una matriz o cuadro de doble entrada SECRE, que representa los datos referidos a un SECtor (fila) y a una REgión (columna), del modo siguiente:
+
+## Read files
+
+### Codes {.tabset}
+
+#### Python
+
+```{python}
+
+import pandas as pd
+
+df = pd.read_csv('DATA/SECRE.csv')
+df = df[['anio_censal','municipio', 'actividad_economica', 'UE']]
+df = df[df['municipio'].notna()]
+df = df[df['actividad_economica'] != 'Total Municipal']
+
+df_2004 = df[df['anio_censal'] == 2004].pivot_table(index='actividad_economica',
+columns = 'municipio',
+values = 'UE',
+fill_value = 0)
+
+# Add a row with the sum of each column
+df_2004.loc['Total_Regional'] = df_2004.sum()
+# Add a column with the sum of each row
+df_2004['Total_Sector'] = df_2004.sum(axis=1)
+
+df_2004.head()
+
+```
+
+#### R
+
+```{r}
+library(dplyr)
+
+dfr <- read.csv('DATA/SECRE.csv')
+dfr <- dfr[c('anio_censal','municipio', 'actividad_economica', 'UE')]
+dfr <- dfr[!(is.na(dfr$municipio)), ]
+dfr <- dfr[!(is.null(dfr$municipio)), ]
+
+
+dfr <- dfr |> dplyr::filter(actividad_economica != "Total Municipal")
+dfr <- dfr |> dplyr::filter(municipio != "")
+
+dfr_2004 <- dfr |> dplyr::filter(anio_censal == 2004)
+
+dfr_2004 <- dfr_2004 |> tidyr::pivot_wider(names_from = c(municipio, anio_censal),
+                                      values_from = UE,
+                                      values_fill = 0)
+# Agregar una fila con la suma de cada columna
+dfr_2004 <- rbind(dfr_2004, c("Total_Regional", sapply(dfr_2004[, -1], sum)))
+dfr_2004[, -1] <- sapply(dfr_2004[, -1], as.numeric)
+# Agregar una columna con la suma de cada fila
+dfr_2004 <- cbind(dfr_2004, Total_Sector = apply(dfr_2004[, -1], 1, sum, na.rm = TRUE))
+
+
+
+head(dfr_2004, 5)
+
+```
+## PARTICIPACIÓN DE LOS SECTORES EN CADA REGIÓN
+
+```{python}
+df_2004_pp = df_2004.apply(lambda x: x/x.iloc[-1] * 100, axis = 0)
+df_2004_pp = df_2004_pp.round(2)
+df_2004_pp
+```
+
+
+## Cociente de localización
+
+```{python}
+#df_2004_pp = df_2004.apply(lambda x: x/x.sum(), axis=0)
+df_2004_cl = df_2004_pp.apply(lambda x: x/x.iloc[-1], axis = 1)
+#df_2004_pp = df_2004_pp.round(2)
+df_2004_cl
+```
+

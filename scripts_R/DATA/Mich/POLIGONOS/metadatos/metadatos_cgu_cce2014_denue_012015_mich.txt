@@ -1,0 +1,27 @@
+identifier:
+
+title: Cierre de los Censos Económicos 2014, DENUE 01/2015
+
+description: La cartografía de las localidades Urbanas es utilizada en las diferentes etapas de los censos y encuestas que realiza el Instituto, como son: planeación, levantamiento y presentación de resultados. El uso de la información cartográfica permite la elaboración de cartografía temática de acuerdo a los resultados censales definitivos, la cual se presentará en Sistemas de Información Geográfica (SIG) y medios digitales. El conjunto de Localidades Urbanas es de 4547. Estas representaciones digitales, corresponden al Cierre de los Censos Económicos 2014. DENUE 01/2015, y cada Localidad Urbana contiene límites y claves del Área Geoestadística Básica (AGEB), polígonos de Manzana y polígono(s) envolventes de la localidad correspondiente; también contiene nombres de calle, rasgos culturales y naturales (cuerpos de agua) y la ubicación de los principales servicios (iglesia, escuela, asistencia médica, palacio municipal o ayudantía, mercado, cementerio y plaza o jardín). Todos los elementos contienen atributos (claves geoestadísticas, fecha de actualización, nombre del elemento geográfico, entre otros). La identificación de las Localidades Urbanas está conformada por una clave de 9 dígitos de los cuales los 2 primeros corresponden al estado, los 3 siguientes al municipio y los 4 restantes a la localidad (EEMMMLLLL).
+
+modified: 2014-11-14 
+
+publisher: Instituto Nacional de Estadística y Geografía – INEGI
+
+mbox: atencion.usuarios@inegi.org.mx
+
+license: Términos de Libre Uso de la Información del INEGI http://www.inegi.org.mx/terminos/terminos_info.aspx
+
+datadictionary:
+
+keyword: localidades, urbanas, áreas, geoestadísticas, básicas, AGEBS, polígonos, manzanas, envolventes, nombres, calles, rasgos, culturales, cuerpos, aguas, servicios, iglesias, escuelas, asistencias, médicas, palacios, municipales, ayudantías, mercados, cementerios, plazas, jardines.
+
+contactpoint: Lic. José de Jesús Esquivel de la Rosa, 01800 111 4634
+
+temporal: 
+
+spatial: Michoacán de Ocampo
+
+accrualperiodicity: Decenal
+
+distribution: http://internet.contenidos.inegi.org.mx/contenidos/Productos/prod_serv/contenidos/espanol/bvinegi/productos/geografia/DENUE_2014/Michoacan_de_Ocampo/702825004427_s.zip 

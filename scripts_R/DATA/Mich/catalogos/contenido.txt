@@ -1,0 +1,98 @@
+CONTENIDO DEL DISCO
+
+“Cartografía Geoestadística Urbana y Rural Amanzanada. Junio 2016” está conformada por:
+*         4,562  Localidades Urbanas
+*       50,821  Localidades Rurales Amanzanadas
+---------------
+      55,383  Localidades Urbanas y Rurales Amanzanadas
+	
+
+
+NOMBRES Y CONTENIDO DE LOS ARCHIVOS VECTORIALES
+
+Los nombres de archivos se conforman con las claves numéricas de la Entidad Federativa y la capa con sufijos descriptivos del contenido del archivo:
+Donde:
+EE corresponde a la clave numérica de la Entidad Federativa: 01, 02,…32 (ver Entidades.pdf), 
+Capa contiene los sufijos  L, A, M, FM, E, SIA, SIP, SIL que indican el tipo de elementos contenidos en cada archivo.
+
+EEL     	Polígono de Localidad Urbana y Rural Amanzanada
+EEA		Área Geoestadística Básica
+EEM		Polígonos de Manzanas
+EEFM 		Frentes de Manzana
+EEE		Ejes de vialidad
+EESIA		Servicios con Información complementaria de tipo Área (Áreas Verdes, Camellones, glorietas)
+EESIL		Servicios con Información complementaria de tipo Línea (Ríos, Ferrocarriles)
+EESIP		Servicios con Información complementaria de tipo Puntual (Palacios Municipales o 
+		Ayudantías, Parques o Jardines)
+
+Cabe aclarar que únicamente los archivos con sufijo L, A, M, FM, y E deben estar presentes en cada localidad, el resto (SIA, SIL y SIP) se incluye únicamente si la localidad cuenta con este tipo de información.
+
+
+
+FORMATO
+SHP	
+
+
+
+
+
+DOCUMENTACIÓN
+
+El detalle de las 55,383 Localidades Urbanas y Rurales Amanzanadas, se encuentra en el archivo denominado Localidades Urbanas y Rurales Amanzanadas, además de los catálogos de Entidades y Municipios, que se encuentran en formato pdf y csv; se incluye también un archivo de presentación denominado Leeme, el de Síntesis que muestra la descripción de la obra y el presente archivo llamado Contenido que detalla las características técnicas de la información. Los archivos mencionados se encuentran  en formato pdf. y txt. 
+
+
+
+CARACTERÍSTICAS TÉCNICAS DE LA INFORMACIÓN:
+
+Parámetros:
+Cónica Conforme de Lambert (CCL)
+Dátum: ITRF2008.
+Elipsoide: GRS80.
+Meridiano origen: 102° 00’ 00’’ W.
+Latitud origen: 12° 00’ 00’’ N.
+Primer paralelo estándar: 17° 30’ N.
+Segundo paralelo estándar: 29° 30’ N.
+Falso Este: 2 500 000.
+Falso Norte: 0
+
+
+
+
+FUENTE
+La base cartográfica utilizada para realizar la actualización fue la cartografía  Geoestadística Urbana y Rural Amanzanada con corte al Cierre de la Encuesta Intercensal 2015, digitalizada en su gran mayoría con base en Imágenes de Satélite Orto rectificadas con resolución de 2.5m.
+
+El software utilizado para la digitalización de la cartografía y generación de los archivos SHAPE fue ArcGIS  en su versión 10.4
+
+
+
+
+
+
+
+
+
+ESTRUCTURA DE DATOS PARA LAS LOCALIDADES AMANZANADAS
+  EELLímite de la Localidad.CAMPODESCRIPCIÓNCLASECVEGEOCLAVE GEOESTADISTICA CONCATENADACARÁCTERNOMGEONOMBRE DE LA LOCALIDADCARÁCTERAMBITOTIPO DEL DATO GEOGRÁFICO (URBANO O RURAL)CARACTERCVE_ENTCLAVE DE ENTIDAD FEDERATIVACARACTERCVE_MUNCLAVE DE MUNICIPIOCARACTERCVE_LOCCLAVE DE LOCALIDADCARACTER  EEAÁreas Geoestadísticas Básicas del Marco Geoestadístico.CAMPODESCRIPCIÓNCLASECVEGEOCLAVE GEOESTADISTICA CONCATENADACARACTERCVE_AGEBCLAVE DE AGEBCARACTERCVE_ENTCLAVE DE ENTIDAD FEDERATIVACARACTERCVE_LOCCLAVE DE LOCALIDADCARACTERCVE_MUNCLAVE DE MUNICIPIOCARACTER
+  EEMSon los Polígonos  Físicos de la Localidad  (Manzana)CAMPODESCRIPCIÓNCLASECVEGEOCLAVE GEOESTADISTICACARACTERAMBITOCLASIFICACION DEL DATO GEOGRAFICOCARACTERCVE_AGEBCLAVE DE AGEBCARACTERCVE_ENTCLAVE DE ENTIDAD FEDERATIVACARACTERCVE_LOCCLAVE DE LOCALIDADCARACTERCVE_MUNCLAVE DE MUNICIPIOCARACTERCVE_MZACLAVE DE MANZANACARACTERTIPOMZATIPO DE MANZANA  puede ser: (Contenedora, Contenida, Edificio-Manzana,
+Típica, Parque o Jardín, Glorieta, Camellón, Bajo Puente).CARACTER
+
+  EESIA
+Son los Servicios  tipo Área de  la Localidad.CAMPODESCRIPCIÓNCLASECVEGEOCLAVE GEOESTADÍSTICA CONCATENADACARACTERCONDICIONSITUACION ACTUAL DEL DATO GEOGRAFICOCARACTERGEOGRAFICONOMBRE DEL DATO GEOGRAFICOCARACTERNOMBREREFERENCIA DEL DATO GEOGRAFICOCARACTERTIPOCLASIFICACION DEL DATO GEOGRAFICOCARACTERAMBITOTIPO DEL DATO GEOGRAFICO (URBANO O RURAL)CARACTER
+  EESIL
+Son los Servicios  tipo Lineal de  la Localidad.CAMPODESCRIPCIÓNCLASECVEGEOCLAVE GEOESTADÍSTICA CONCATENADACARACTERNOMBREREFERENCIA DEL DATO GEOGRAFICOCARACTERTIPOCLASIFICACION DEL DATO GEOGRAFICOCARACTERCONDICIONSITUACION ACTUAL DEL DATO GEOGRAFICOCARACTERGEOGRAFICONOMBRE DEL DATO GEOGRAFICOCARACTERAMBITOTIPO DEL DATO GEOGRAFICO (URBANO O RURAL)CARACTER
+   EESIPSon los Servicios  tipo Puntual de  la Localidad.CAMPODESCRIPCIÓNCLASETIPOCLASIFICACION DEL DATO GEOGRAFICOCARACTERGEOGRAFICONOMBRE DEL DATO GEOGRAFICOCARACTERNOMBREREFERENCIA DEL DATO GEOGRAFICOCARACTERAMBITOTIPO DEL DATO GEOGRAFICO (URBANO O RURAL)CARACTERCONDICIONSITUACION ACTUAL DEL DATO GEOGRAFICOCARACTERCVEGEOCLAVE GEOESTADÍSTICA CONCATENADACARACTERCVE_LOCCLAVE DE LOCALIDADCARACTERCVE_AGEBCLAVE DE AGEBCARACTERCVE_MZACLAVE DE MANZANACARACTERCVESERVCLAVE  DEL SERVICIOCARACTERCVE_ENTCLAVE DE ENTIDAD FEDERATIVACARACTERCVE_MUNCLAVE DE MUNICIPIOCARACTER
+   EEFMFrente de manzanaCAMPODESCRIPCIÓNCLASECVE_ENTCLAVE DE ENTIDAD FEDERATIVACARACTERCVE_MUNCLAVE DE MUNICIPIOCARACTERCVE_LOCCLAVE DE LOCALIDADCARACTERCVE_AGEBCLAVE DE AGEBCARACTERCVE_MZACLAVE DE MANZANACARACTERCVEFTCLAVE DEL FRENTE DE MANZANACARACTERCVEVIALCLAVE DE LA VIALIDADCARACTERCVESEGCLAVE DEL SEGMENTO DE VIALIDAD CONFORME A LAS MANZANASCARACTERTIPOVIALTIPO DE VIALIDADCARACTERNOMVIALNOMBRE DE VIALIDADCARACTERCVEGEOCLAVE GEOESTADÍSTICA CONCATENADACARACTER
+  EEEEje de Vialidad de Circulación (Calle, Avenida, Prolongación, Etc.)CAMPODESCRIPCIÓNCLASECVEGEOCLAVE GEOESTADISTICACARACTERCVEVIALCLAVE DE VIALIDADCARACTERCVESEGCLAVE DE SEGMENTO DE VIALIDADCARACTERNOMVIALNOMBRE DE VIALIDADCARACTERTIPOVIALTIPO DE VIALIDADCARACTERCVE_ENTCLAVE DE ENTIDAD FEDERATIVACARACTERCVE_LOCCLAVE DE LOCALIDADCARACTERCVE_MUNCLAVE DE MUNICIPIOCARACTERAMBITOTIPO DEL DATO GEOGRAFICO (URBANO O RURAL)CARACTERSENTIDOSENTIDO DE LA VIALIDADCARACTER
+
+
+
+
+
+
+
+
+
+
+
+
+CAPAS DE INFORMACIÓN DE SERVICIOS, CARACTERÍSTICAS Y CONTENIDODATO GEOGRÁFICOGEOMETRÍACONDICIÓNTIPOCAPA     AcueductoLíneaEn Construcción / En Operación / Fuera de UsoSubterráneo SILSuperficialElevado     Aeródromo CivilÁreaEn Construcción / En Operación / Fuera de UsoInternacionalSIANacionalLocal     Área VerdeÁreaEn Operación / No AplicaÁrea VerdeSIAJardínParqueOtro     BordoLínea/ÁreaNo AplicaBordoSIL/SIA     CamellónÁreaEn Operación / No AplicaCamellónSIAGlorieta     CanalLíneaEn Construcción / En Operación / Fuera de UsoSin RevestimientoSILIntermitenteSuperficialOtro     CementerioPunto / ÁreaNo AplicaCementerioSIP / SIA     Centro ComercialPunto / ÁreaNo AplicaCentro ComercialSIP / SIA     Centro de Asistencia MédicaPunto / ÁreaEn Operación / Fuera de Uso  / No AplicaHospital SIP / SIACentro de SaludCentro de Rehabilitación Otro     ConductoLíneaEn Operación / Fuera de UsoSubterráneoSILSuperficialOtro     Corriente de AguaLíneaNo AplicaIntermitenteSILPerenne     Cuerpo de AguaÁreaNo AplicaIntermitenteSIAPerenne     Depósito de DesechosPunto / ÁreaEn Operación / No AplicaRelleno SanitarioSIP / SIATiraderoJale o TerrenoOtro.     Edificación Punto / ÁreaEn Operación / No aplicaMuseoSIP / SIACasa de la CulturaMonumento u ObeliscoPirámideSitio HistóricoGranja o EstabloAduana y/o Control de MigraciónAuditorioCentro de Espectáculos.CineCongresoTeatroOtro     EscuelaPunto / ÁreaEn Construcción / En Operación / Fuera de UsoSIA/SIPEscuela     Estación de Transporte TerrestrePunto / ÁreaEn Operación / Fuera de usoCentral de AutobusesSIP / SIAEstación de FerrocarrilEstación de Ferrocarril SuburbanoEstación de MetrobúsEstación de Tren LigeroEstación de Tren Metropolitano     Estación del MetroPunto / ÁreaNo AplicaEstación del MetroSIP / SIA     EstanquePunto/ÁreaNo AplicaAcuícolaSIP / SIADe SedimentaciónReguladorCaja de AguaOtro     Estructura ElevadaPuntoEn Operación / No aplicaCaseta forestalSIPSiloOtro     Faro / Radiofaro / VORPuntoEn Operación / No aplicaFaroSIPRadiofaroVOROtro     Funicular / TeleféricoLínea / PuntoNo AplicaFunicularSIL / SIPTeleférico     Instalación de BombeoPunto / ÁreaEn Operación / No aplicaAguaSIP / SIACombustibleOtro     Instalación de ComunicaciónLínea / ÁreaEn Operación / No aplicaAntena de Microondas de TelefoníaSIP / SIAAntena de RadioAntena de TelevisiónEstación Terrestre de TelecomunicacionesRepetidora de Fibra ÓpticaTorre de MicroondasOtro     Instalación de ServiciosPunto / ÁreaEn OperaciónCentral de BomberosSIP / SIACentral de PolicíaEstación de Bomberos     Instalación Deportiva o RecreativaPunto / ÁreaEn Construcción / En Operación / Fuera de Uso / No aplicaAcuario SIP / SIAAlberca OlímpicaAutódromoBalnearioCampo de GolfCampo de TiroCentro VacacionalEstadioGalgódromoHipódromoLienzo CharroPlaza de TorosVelódromoZona de CampamentoZoológicoDiversoOtro     Instalación DiversaÁreaEn Operación / Fuera de Uso / No aplicaAlmacenes de DepósitoSIP / SIACentral de AutobusesCentro de AbastosCentro de InvestigaciónEstación de FerrocarrilEstación de GasGasolineraInvernaderoJardín botánicoObservatorio AstronómicoPlanta de Tratamiento de AguaReclusorioTortilleríaDe SedimentaciónOtro     Instalación IndustrialÁreaNo aplicaAserraderoSIAFundidoraPlanta AutomotrizPlanta AzufreraPlanta CementeraPlanta PetroquímicaRefineríaZona IndustrialOtro     Instalación PortuariaLínea / ÁreaNo AplicaAstilleroSIL / SIAMalecónMuelle o EmbarcaderoRompeolas o EscolleraDique de Defensa Contra el OleajeOtro     LinderoLíneaNo AplicaLinderoSIL     Línea de CostaLíneaNo AplicaLínea de CostaSIL     Línea de TransmisiónLíneaNo AplicaEn Torres de AceroSILEn Postería Doble (H)     Línea de Tren MetropolitanoLíneaNo AplicaLínea de Tren MetropolitanoSIL     LumbreraPuntoNo AplicaLumbreraSIP     ManantialPuntoNo AplicaManantialSIP     MercadoPunto / ÁreaNo AplicaMercadoSIP / SIA     Palacio de GobiernoPunto / ÁreaNo AplicaPalacio de GobiernoSIP / SIAAyudantía o Presidencia MunicipalPalacio de JusticiaOtro     Paso a DesnivelLínea / PuntoNo AplicaVehicularSILOtro     Pista de AviaciónLínea/Punto / ÁreaEn Construcción / En Operación / Fuera de UsoPavimentadaSIL/SIP / SIATerracería     Pista de CarrerasLínea / ÁreaNo AplicaPista de CarrerasSIP / SIAOtro     Planta de AguaÁreaNo AplicaPlanta PotabilizadoraSIAPlanta RecicladoraOtro     PlazaPunto / ÁreaNo AplicaPlazaSIP / SIA     PozoPuntoEn Construcción / En Operación / Fuera de UsoPetróleoSIPGasAguaOtro     PresaLínea / ÁreaEn Construcción / En Operación / Fuera de UsoPresaSIL / SIA     PuenteLíneaEn Construcción / En Operación / Fuera de UsoPeatonalSILVehicularLevadizoColgantePara CanalOtro     Rampa para Silla de RuedasPuntoEn OperaciónNo AplicaSIP     Rasgo ArqueológicoPunto / ÁreaEn Construcción / En Operación / Fuera de UsoPinturas RupestresSIP / SIASitio ArqueológicoZona Arqueológica     Subestación EléctricaPunto / ÁreaEn Construcción / En Operación / Fuera de UsoSubestación EléctricaSIP / SIA     TanquePunto / ÁreaEn Construcción / En Operación / Fuera de UsoCombustibleSIP / SIAOtro     Tanque de AguaPunto / ÁreaEn Construcción / En Operación / Fuera de UsoCaja de AguaSIP / SIATanque Elevado     TemploPunto / ÁreaEn Construcción / En OperaciónTemploSIP / SIA     TúnelLíneaEn Construcción / En OperaciónTúnelSIL     Vía FérreaLíneaEn Construcción / En Operación / Fuera de UsoSencillaSILDobleOtro     Zona ArenosaÁreaNo AplicaDunasSIAArena     
